@@ -28,5 +28,5 @@
         <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Grab picture to upload" />
     </plugin>
     <engine name="android" spec="^7.0.0" />
-    <engine name="ios" spec="~4.5.4" />
+    <engine name="ios" spec="^4.5.4" />
 </widget>
