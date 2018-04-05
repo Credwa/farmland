@@ -98,3 +98,9 @@ cordova build ios --release
 or
 
 Build using xcode "Run" button
+
+
+## extra notes for Yohannes
+
+Method to open up camera and take a picture is in note.js selectPhoto method.
+onSuccess is called after picture is taken and 64 base encoded img url is stored in imageSave.src
