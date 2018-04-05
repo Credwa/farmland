@@ -14,8 +14,7 @@ What things you need to get project up and running
 
 ### xcode (ios build)
 
-
-### Installing dependencies
+## Installing dependencies
 
 A step by step series of examples that tell you have to get a development env running
 
@@ -38,6 +37,16 @@ Install cordova (might need sudo if on linux based system)
 npm install -g cordova
 ```
 
+# platforms
+
+### Unzip android and ios in /platforms/ or run the following commands
+recommended to be on mac to add ios platform
+```
+cordova platform add ios
+```
+```
+cordova platform add android
+```
 
 ## Open project in xcode - OPTIONAL
 ```

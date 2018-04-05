@@ -1,4 +1,0 @@
-#Mon Apr 02 17:38:39 EDT 2018
-base.0=C\:\\Users\\Craig Edwards\\Documents\\Projects\\Upwork\\convert-web-app\\farmland\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-renamed.0=classes.dex
-file.0=C\:\\Users\\Craig Edwards\\Documents\\Projects\\Upwork\\convert-web-app\\farmland\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
