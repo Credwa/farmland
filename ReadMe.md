@@ -6,13 +6,14 @@ Farmland App
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+## Prerequisites
 
 What things you need to get project up and running
 
-```
-nodejs https://nodejs.org/en/
-```
+### nodejs https://nodejs.org/en/
+
+### xcode (ios build)
+
 
 ### Installing dependencies
 
@@ -38,26 +39,28 @@ npm install -g cordova
 ```
 
 
-# Open project in xcode - OPTIONAL
+## Open project in xcode - OPTIONAL
 ```
 open ./platforms/iosFarmLand.xcworkspace
 ```
 
-# Setup for android build
+## Setup for android build
 
 Set the JAVA_HOME environment variable to the location of your JDK installation eg. "\Java\jdk1.8.0_161"
+
 Set the ANDROID_HOME environment variable to the location of your Android SDK installation (android studio)
+
 Set up an emulator in android or plug in android phone with usb debugging enabled.
 
 
-# Setup for ios build
+## Setup for ios build
 
 Download XCODE
 Developer license required for distribution.
 Plug in ios phone or use xcode emulator
 
 
-# Running emulator
+## Running emulator
 
 ### Android
 ```
@@ -73,7 +76,7 @@ or
 Use xcode "Run" button to emulate
 
 
-# Building the app
+## Building the app
 
 ### Android
 Create .apk for android
@@ -81,7 +84,7 @@ Create .apk for android
 cordova build android
 ```
 
-#### IOS
+### IOS
 Create .app folder for ios
 ```
 cordova build ios
