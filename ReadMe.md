@@ -38,31 +38,33 @@ npm install -g cordova
 ```
 
 
-###Open project in xcode - OPTIONAL
+# Open project in xcode - OPTIONAL
 ```
 open ./platforms/iosFarmLand.xcworkspace
 ```
 
-### Setup for android build
+# Setup for android build
 
 Set the JAVA_HOME environment variable to the location of your JDK installation eg. "\Java\jdk1.8.0_161"
 Set the ANDROID_HOME environment variable to the location of your Android SDK installation (android studio)
 Set up an emulator in android or plug in android phone with usb debugging enabled.
 
 
-### Setup for ios build
+# Setup for ios build
 
 Download XCODE
 Developer license required for distribution.
 Plug in ios phone or use xcode emulator
 
 
-### Running emulator
+# Running emulator
 
-## Android
+### Android
+```
 cordova emulate android
+```
 
-## ios
+### ios
 ```
 cordova emulate ios
 ```
@@ -71,15 +73,15 @@ or
 Use xcode "Run" button to emulate
 
 
-### Building the app
+# Building the app
 
-## Android
+### Android
 Create .apk for android
 ```
 cordova build android
 ```
 
-## IOS
+#### IOS
 Create .app folder for ios
 ```
 cordova build ios
